@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: 200;
+}
+
+input{
+  width: 300px;
+  padding: 5.5px;
+}
+
+button{
+  padding: 7.5px;
+  border-radius: 0px 3px 3px 0px;
+  width: 100px;
+  border: 0;
+  background-color: #00118d;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.disabled{
+  background-color: #6c6c6c;
+  cursor: default;
+}
+
+#errorMessage{
+  color: red;
+}
+
+.searchResult{
+  text-align: left;
+  padding-left: 10px;
+  margin: auto;
+  width: 500px;
+  height: 25px;
+  background: #e7e7e7;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.App-footer {
+  font-size: small;
+}
